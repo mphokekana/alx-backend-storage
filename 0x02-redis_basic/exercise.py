@@ -99,6 +99,11 @@ class Cache:
 
     @count_calls
     @call_history
+    class Cache:
+    def __init__(self):
+        self._redis = redis.Redis()
+        self._redis.flushdb()
+
     def store(self, data: Union[str, bytes, int, float]) -> str:
         """
         Store data in redis cache
