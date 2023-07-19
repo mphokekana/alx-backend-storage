@@ -31,7 +31,3 @@ def cache_result(expiration_time):
 @cache_result(expiration_time=10)
 def get_page(url):
     return requests.get(url).text
-
-url = 'http://slowwly.robertomurray.co.uk/delay/1000/url/http://www.example.com'
-content = get_page(url)
-print(content)
