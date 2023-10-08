@@ -21,4 +21,3 @@ BEGIN
         WHERE users.id = user_id;
 END $$
 DELIMITER ;
-
