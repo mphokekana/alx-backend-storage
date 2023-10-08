@@ -11,3 +11,4 @@ BEGIN
         WHERE name = NEW.item_name;
 END $$
 DELIMITER ;
+
