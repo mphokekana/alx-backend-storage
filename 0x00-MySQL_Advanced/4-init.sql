@@ -12,5 +12,4 @@ CREATE TABLE IF NOT EXISTS orders (
     number int NOT NULL
 );
 
-INSERT INTO items (name) VALUES ("apple"), ("pineapple"), ("pear");
-
+INSERT INTO items (name) VALUES ("apple"), ("pineapple"), ("pear")
