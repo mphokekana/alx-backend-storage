@@ -23,4 +23,3 @@ BEGIN
         VALUES (user_id, project_id, score);
 END $$
 DELIMITER ;
-
