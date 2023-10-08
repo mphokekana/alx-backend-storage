@@ -7,3 +7,4 @@ CALL ComputeAverageScoreForUser((SELECT id FROM users WHERE name = "Jeanne"));
 
 SELECT "--";
 SELECT * FROM users;
+
