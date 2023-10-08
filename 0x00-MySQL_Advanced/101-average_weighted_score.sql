@@ -33,4 +33,3 @@ BEGIN
         DROP COLUMN total_weight;
 END $$
 DELIMITER ;
-
